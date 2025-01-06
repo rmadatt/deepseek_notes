@@ -1,0 +1,47 @@
+Prompt: Summarize into steps and add relevant advices. Also explain briefly what a module is: Until now, a huge friction point for getting a prototype into users’ hands has been deployment. Platforms like Bolt, Replit Agent, Vercel V0 use generative AI with agentic workflows to improve code quality, but more importantly, they also help deploy generated applications directly. (While I find these systems useful, my own workflow typically uses an LLM to design the system architecture and then generate code, one module at a time if there are multiple large modules. Then I test each module, edit the code further if needed — sometimes using an AI-enabled IDE like Cursor — and finally assemble the modules.) (The Batch)
+
+DeepSeek:### Steps to Develop and Deploy a Prototype Using AI-Assisted Workflows:
+
+1. **Design System Architecture**:
+   - Use a Large Language Model (LLM) to design the overall system architecture.
+   - Break the system into smaller, manageable modules if the project is complex.
+
+2. **Generate Code**:
+   - Generate code for each module one at a time using the LLM.
+   - Focus on modularity and reusability to simplify testing and debugging.
+
+3. **Test Each Module**:
+   - Test each module individually to ensure functionality and identify bugs.
+   - Use automated testing tools or manual testing depending on the complexity.
+
+4. **Refine Code**:
+   - Edit and refine the code as needed, leveraging AI-enabled IDEs like Cursor for suggestions and improvements.
+   - Ensure code quality, readability, and adherence to best practices.
+
+5. **Assemble Modules**:
+   - Combine the tested and refined modules into a complete application.
+   - Ensure seamless integration between modules.
+
+6. **Deploy the Application**:
+   - Use platforms like **Bolt**, **Replit Agent**, or **Vercel V0** to deploy the generated application directly.
+   - These platforms use generative AI and agentic workflows to simplify deployment and improve code quality.
+
+7. **Iterate and Improve**:
+   - Gather user feedback and iterate on the prototype.
+   - Continuously refine the system architecture, code, and deployment process.
+
+---
+
+### What is a Module?
+A **module** is a self-contained unit of code that performs a specific function or set of functions within a larger application. Modules are designed to be reusable, maintainable, and independent, allowing developers to break down complex systems into smaller, manageable components. For example, in a web application, one module might handle user authentication, while another manages database interactions.
+
+---
+
+### Relevant Advice:
+- **Modular Design**: Always aim for modularity in your code. It simplifies debugging, testing, and scaling.
+- **Test Early and Often**: Test each module as soon as it’s developed to catch issues early.
+- **Leverage AI Tools**: Use AI-enabled IDEs like Cursor or platforms like Replit to speed up coding and improve quality.
+- **Automate Deployment**: Use platforms like Vercel or Bolt to streamline deployment and reduce friction.
+- **Iterate Based on Feedback**: Continuously improve your prototype based on real user feedback to ensure it meets their needs.
+
+By following these steps and advice, you can efficiently develop, test, and deploy prototypes while minimizing friction and maximizing quality.
